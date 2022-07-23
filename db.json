@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dixit Parmar",
+      "email": "dixit@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "name": "Sameer Parmar",
+      "email": "sameer@gmail.com",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "name": "Sameer Parmar",
+      "email": "sameer@gmail.com",
+      "password": "12345678",
+      "id": 3
+    }
+  ]
+}
