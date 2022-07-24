@@ -13,7 +13,8 @@ const initialState = {
   token: '',
   loading: true,
   success: false,
-  error: ''
+  error: '',
+  ...JSON.parse(localStorage.getItem('authUser'))
 }
 
 const userReducer = (state = initialState, { type, payload }) => {
