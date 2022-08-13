@@ -1,0 +1,58 @@
+$primary: #08669c;
+$theme-colors: (
+  'primary': $primary,
+  'danger': #da1a1a,
+  'success': #008400,
+  'warning': #fec93b,
+  'secondary': #5db3ce
+);
+
+$body-bg: #9ad9db;
+$card-bg: #e5dbd9;
+
+$btn-color: white;
+$button-bg: white;
+$bs-btn-color: white;
+$input-btn-focus-box-shadow: none;
+$btn-focus-box-shadow: none;
+$btn-font-weight: 500;
+
+// card
+$card-border-radius: 0.6rem;
+$card-border-color: transparent;
+$card-border-width: 0px;
+
+// form
+// $input-color: white;
+$input-font-weight: 500;
+$input-border-color: none;
+$input-border-radius: 0.3em;
+$input-focus-border-color: none;
+$input-focus-box-shadow: none;
+.form-control {
+  background-color: #98d4bb !important;
+}
+.btn {
+  --btn-focus-box-shadow: none !important;
+  --bs-btn-border-width: 2px !important;
+  // &:focus {
+  //   box-shadow: none;
+  //   --btn-focus-box-shadow: none !important;
+  // }
+}
+.btn-primary {
+  --bs-btn-focus-shadow-rgb: transparent !important;
+  --bs-btn-color: white !important;
+}
+.btn-outline-primary {
+  --bs-btn-focus-shadow-rgb: transparent !important;
+}
+.btn-success {
+  --bs-btn-focus-shadow-rgb: transparent !important;
+}
+// gutter
+$grid-columns: 24;
+$grid-gutter-width: 1rem;
+// switching variables
+$enable-shadows: false;
+$enable-shadows: false;

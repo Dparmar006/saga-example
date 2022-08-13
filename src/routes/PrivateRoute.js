@@ -7,6 +7,7 @@ const PrivateRoute = ({ children }) => {
 
   const data = JSON.parse(user)
   if (!data) isValidUser = false
+  isValidUser = true
 
   return isValidUser ? children : <Navigate to='/login' />
 }

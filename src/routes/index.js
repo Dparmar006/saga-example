@@ -1,6 +1,6 @@
 import Dashboard from '../container/dashboard/pages'
 import ListMedicines from '../container/medicines/pages/ListMedicines'
-
+import Chat from '../container/chat/index'
 const { default: Login } = require('../container/auth/pages/Login')
 
 const publicRoutes = [
@@ -21,6 +21,11 @@ const protectedRoutes = [
     title: 'List Medicines',
     path: '/medicines',
     component: ListMedicines
+  },
+  {
+    title: 'Chat',
+    path: '/chat',
+    component: Chat
   }
 ]
 
